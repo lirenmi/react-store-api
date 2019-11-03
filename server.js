@@ -21,6 +21,9 @@ const isAuthenticated = ({ email, password }) => {
     ) !== -1
   );
 };
+const isExist = email => {
+  return getUsersDb().users.findIndex(user => user.email === email) !== -1;
+};
 
 const SECRET = '12321JKLSJKLSDFJK23423432';
 const expiresIn = '1h';
@@ -51,9 +54,9 @@ server.post('/auth/register', (req, res) => {
   const { email, password, nickname, type } = req.body;
 
   // ----- 1 step
-  if (isAuthenticated({ email, password })) {
+  if (isExist(email)) {
     const status = 401;
-    const message = 'Email and Password already exist';
+    const message = 'Email already exist';
     return res.status(status).json({ status, message });
   }
 
