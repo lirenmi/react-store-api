@@ -14,7 +14,7 @@
       "image": "/images/2.jpg",
       "tags": "25 Colors",
       "price": "53800",
-      "status": "unavailable"
+      "status": "available"
     },
     {
       "id": 3,
@@ -97,5 +97,30 @@
       "id": 12
     }
   ],
-  "carts": []
+  "carts": [
+    {
+      "productId": 3,
+      "name": "Jordan Why Not Zer0.2",
+      "image": "/images/3.jpg",
+      "price": "48900",
+      "mount": 1,
+      "id": 1
+    },
+    {
+      "productId": 2,
+      "name": "Nike Paul George PG 3",
+      "image": "/images/2.jpg",
+      "price": "53800",
+      "mount": 6,
+      "id": 2
+    },
+    {
+      "productId": 1,
+      "name": "Air Jordan 4",
+      "image": "/images/1.jpg",
+      "price": "59440",
+      "mount": 1,
+      "id": 3
+    }
+  ]
 }

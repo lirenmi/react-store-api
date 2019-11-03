@@ -1,9 +1,14 @@
 {
   "dependencies": {
-    "json-server": "^0.15.1"
+    "json-server": "^0.15.1",
+    "jsonwebtoken": "^8.5.1"
   },
   "scripts": {
+    "server": "nodemon server.js",
     "start": "json-server --watch db.json --port 3003"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
 }
