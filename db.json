@@ -99,14 +99,6 @@
   ],
   "carts": [
     {
-      "productId": 3,
-      "name": "Jordan Why Not Zer0.2",
-      "image": "/images/3.jpg",
-      "price": "48900",
-      "mount": 1,
-      "id": 1
-    },
-    {
       "productId": 2,
       "name": "Nike Paul George PG 3",
       "image": "/images/2.jpg",
@@ -121,6 +113,14 @@
       "price": "59440",
       "mount": 1,
       "id": 3
+    },
+    {
+      "productId": 3,
+      "name": "Jordan Why Not Zer0.2",
+      "image": "/images/3.jpg",
+      "price": "48900",
+      "mount": 1,
+      "id": 4
     }
   ]
 }
